@@ -1,0 +1,3 @@
+# Stack Overflow in Recursive Hack Function
+
+This repository demonstrates a common error in Hack programming: a stack overflow error caused by unbounded recursion in a function.  The `foo` function calculates the factorial recursively. With sufficiently large inputs, this will exhaust the call stack.  The solution demonstrates how to handle this by adding a base case to prevent excessive recursion.  This example highlights the importance of carefully designing recursive functions to avoid stack overflow errors.
